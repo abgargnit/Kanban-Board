@@ -1,0 +1,32 @@
+.App {
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f5f7;
+  }
+  
+  .loading, .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    color: #42526e;
+  }
+  
+  .board {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+  
+    .board {
+      flex-direction: column;
+    }
+  }
